@@ -30,9 +30,6 @@ export default function Navbar() {
         <li>
           <Link to="/about">About</Link>
         </li>
-        <li>
-          <Link to="/resume">Resume</Link>
-        </li>
       </ul>
       <div className="hamburger" onClick={handelClick}>
         {click ? (
